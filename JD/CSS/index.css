@@ -58,3 +58,25 @@
 .circle li:hover {
     background-color: red;
 }
+
+.arrow-left,.arrow-right {
+    position: absolute;
+    width: 28px;
+    height: 62px;
+    background-color: rgba(0, 0, 0,0.5);
+    top:50%;
+    margin-top: -31px;
+    color: white;
+    font-size: 18px;
+    font-family: "SimSun", "宋体";
+    line-height: 62px;
+    text-align: center;
+}
+
+.arrow-left {
+    left:0;
+}
+
+.arrow-right {
+    right:0;
+}
