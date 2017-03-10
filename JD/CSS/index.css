@@ -25,15 +25,6 @@
     position: relative;
 }
 
-.news {
-    width: 248px;
-    height: 451px;
-    background-color: green;
-    border: 1px solid lightgray;
-    float: right;
-    margin-top: 12px;
-}
-
 .circle {
     position:  absolute;
     bottom: 10px;
@@ -79,4 +70,75 @@
 
 .arrow-right {
     right:0;
+}
+
+.news {
+    width: 248px;
+    height: 451px;
+    border: 1px solid lightgray;
+    float: right;
+    margin-top: 12px;
+    margin-right: 1px;
+}
+
+.jd-news {
+    height: 200px;
+    border-bottom: 1px lightgray dashed;
+}
+
+.jd-news .dt, .lifeservers .dt{
+    height: 34px;
+    border-bottom: 1px dotted lightgray;
+    width: 208px;
+}
+
+.jd-news .dd .lifeservers .dd {
+
+}
+
+.jd-news .dt h3 ,.lifeservers .dt {
+    float: left;
+    line-height: 34px;
+    font-family: "SimSun", "宋体";
+    font-size: 14px;
+}
+
+.jd-news .dt a {
+    float: right;
+    line-height: 34px;
+    font-family: "SimSun", "宋体";
+    font-size: 14px;
+    padding-right: 0px;
+}
+
+.jd-news .dd ul {
+    padding: 8px 0 0 15px;
+}
+
+.jd-news .dd li {
+    line-height: 28px;
+}
+
+.jd-news .dd span {
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.lifeservers {
+    height: 251px;
+    margin-top: 1px;
+    overflow: hidden;
+    width: 248px;
+}
+
+.lifeservers .dd li {
+    width: 62px;
+    height: 70px;
+    border: 1px solid lightgray;
+    float: left;
+    margin: -1px 0 0 -1px;
+}
+
+.lifeservers .dd ul {
+    width: 252px;
 }
