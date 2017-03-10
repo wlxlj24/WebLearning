@@ -142,3 +142,51 @@
 .lifeservers .dd ul {
     width: 252px;
 }
+
+.lifeservers li a {
+    display: block;
+    height: 70px;
+    text-align: center;
+    padding-top: 48px;
+    position: relative;
+}
+
+.lifeservers li i {
+    position: absolute;
+    top: 12px;
+    left: 18px;
+    width: 25px;
+    height: 25px;
+    background: url("../images/icon_lifeserv.png") no-repeat right top;
+}
+
+.lifeservers-icon2 a i {
+    background-position: right -25px;
+}
+
+.lifeservers .song {
+    background: url("../images/song.png") no-repeat top right;
+}
+
+.todays {
+    position:  relative;
+}
+
+.night{
+    margin: 10px 0 28px 0 ;
+}
+
+.night-r {
+    width: 1000px;
+    height: 160px;
+    background: pink;
+    float: right;
+}
+
+.night ul {
+    width: 300%;
+}
+
+.night-r li {
+    float: left;
+}
