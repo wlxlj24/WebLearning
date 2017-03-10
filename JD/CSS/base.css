@@ -51,6 +51,10 @@ s,i,em{font-style:normal;text-decoration:none;}
     display:none
 }
 
+.col-red {
+    background-color: red;
+}
+
 /*头部导航开始*/
 .shortcut {
     height: 30px;
@@ -79,4 +83,323 @@ s,i,em{font-style:normal;text-decoration:none;}
     position: absolute;
     top: -8px;
     left: 0px;;
+}
+
+.fr li {
+    float: left;
+    margin-right: 10px;
+}
+
+.line {
+    width: 1px;
+    height: 12px;
+    background-color: #dddddd;
+    margin-top: 9px;
+}
+
+.topbanner {
+    background-color: #8A25C6;
+}
+
+.logo {
+    width: 270px;
+    height: 60px;
+    background-color: pink;
+    float: left;
+    padding-top: 25px;
+    background: url(../images/logo.png) no-repeat 0 25px;
+    position: relative;
+}
+
+.jd-a {
+    display: block;
+    width: 270px;
+    height: 60px;
+    text-indent: -2000em;
+}
+
+.db11 {
+    position: absolute;
+    width: 180px;
+    height: 80px;
+    background-color: pink;
+    top: 10px;
+    left: 168px;
+}
+
+.search {
+    width: 538px;
+    height: 35px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+
+.search input {
+    width: 450px;
+    height: 32px;
+    border:2px solid #B61D1D;
+    padding-left: 4px;
+    color: #666;
+    /*14字体 32行高*/
+    font: 14px/32px "microsoft yahei";
+    float: left;
+}
+
+.search button {
+    width: 80px;
+    height: 36px;
+    background-color: #B61D1D;
+    float: left;
+    font: 16px/32px "microsoft yahei";
+    color: #ffffff;
+    /*光标*/
+    cursor: pointer;
+}
+
+.car {
+    width: 96px;
+    padding-left: 43px;
+    float: right;
+    margin: 25px 65px 0 0;
+    border: 1px solid #DFDFDF;
+    line-height: 34px;
+    position: relative;
+}
+
+.icon1 {
+    position: absolute;
+    top:10px;
+    left: 20px;
+    width: 16px;
+    height: 13px;
+    background: url("../images/sprite.png" ) no-repeat -1px -59px;
+}
+
+.icon2 {
+    font: 400 13px/13px "SimSun";
+    position: absolute;
+    top:10px;
+    right: 15px;
+}
+
+.icon3 {
+    position: absolute;
+    height: 14px;
+    width: 16px;
+    background-color: red;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    /*padding-top: -2px;*/
+    top: -1px;
+    /*border-bottom-left-radius: 0px;*/
+    /*border-bottom-right-radius: 3px;*/
+    /*border-top-left-radius: 3px;*/
+    /*border-top-right-radius: 3px;*/
+    border-radius: 7px 7px 7px 0;
+    color: #ffffff;
+}
+
+.hotwords {
+    width: 500px;
+    padding: 7px 0;
+    float: left;
+    margin-left: 80px;
+}
+
+.hotwords a {
+    margin-right: 8px;
+    /*padding-right: 8px;*/
+}
+
+/*底部*/
+.slogen {
+    height: 54px;
+    padding: 20px 0;
+    background-color: #f5f5f5;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.item {
+    width: 302px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+}
+
+.slogen1 {
+    margin-left: -608px;
+}
+
+.slogen2 {
+    margin-left: -304px;
+}
+
+.slogen4 {
+    margin-left: 304px;
+}
+
+.serves dt,
+.coverage .dt
+{
+    font-size: 14px;
+    height: 28px;
+    font-family: "SimSun", "宋体";
+}
+
+.serves dl {
+    width: 198px;
+    float: left;
+}
+
+.serves dd {
+    height: 20px;
+}
+
+.coverage {
+    float: right;
+    width: 210px;
+    height: 165px;
+    background: url("../images/china.png") no-repeat left bottom;
+}
+
+.coverage p {
+    line-height: 18px;
+}
+
+.coverage .check_detail {
+    float: right;
+    margin-top: 5px;
+}
+
+.coverage .dd {
+    margin-top: 10px;
+}
+
+.coverage .dt {
+    padding: inherit;
+}
+
+.jd-bottom .w {
+    border-top: 1px solid lightgray;
+}
+
+.shopping {
+    width: 1210px;
+    margin:0 auto;
+}
+
+.links {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.message {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.jd-nav {
+    width: 100%;
+    height: 44px;
+    border-bottom:2px solid red;
+}
+
+.navitems {
+    float: left;
+    height: 44px;
+    width: 780px;
+}
+
+.bike {
+    width: 140px;
+    height: 44px;
+    background-color: green;
+    float: right;
+    background: url("../images/bike.jpg") no-repeat ;
+}
+
+.bike a {
+    display: block;
+    height: 44px;
+}
+
+.dropdown {
+    width: 210px;
+    height: 44px;
+    float: left;
+    background-color: red;
+    position: relative;
+    z-index: 1;
+    overflow: visible;
+}
+
+.dropdown .dt a {
+    display: block;
+    height: 44px;
+    font-family: "SimSun", "宋体";
+    font-size: 15px;
+    line-height: 44px;
+    color: white;
+    padding-left: 10px;
+}
+
+.dropdown .dt {
+    background-color: darkred;
+    height: 44px;
+}
+
+.dropdown .dd {
+    background-color: red;
+    height: 465px;
+    /*display: none;*/
+    margin-top: 2px;
+    border:solid 1px darkred;
+    border-top: 0px;
+}
+
+.navitems li {
+    float:left;
+}
+
+.navitems li a {
+    display: block;
+    color: #333;
+    font: 400 16px/44px "SimSun", "宋体";
+    padding:0 20px;
+}
+
+.navitems li a:hover {
+    color: #B61D1D;
+}
+
+.navitems li.new {
+    background: url("../images/new.jpg") no-repeat right top;
+}
+
+.dropdown .dropdownItems h3 {
+    height: 31px;
+    line-height: 31px;
+    color: white;
+    padding-left: 15px;
+    font-size: 14px;
+    font-family: "SimSun", "宋体";
+    float: left;
+}
+
+.dropdown .dropdownItems span {
+    height: 31px;
+    line-height: 31px;
+    color: white;
+    font-size: 14px;
+    font-family: "SimSun", "宋体";
+    float: right;
+    margin-right: 15px;
 }
